@@ -1,0 +1,12 @@
+.imgCard {
+  height: 150px;
+  width: 150px;
+}
+.imgCardContainer {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+.paraText {
+  text-align: left;
+}

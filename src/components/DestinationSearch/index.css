@@ -1,0 +1,32 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.bg {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.imagesCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+  .bg {
+    align-items: center;
+  }
+  .imagesCard {
+    flex-direction: column;
+    align-items: center;
+  }
+}
